@@ -17,9 +17,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: Semantic Release
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_username: __token__
         run: |
           pip install python-semantic-release
           git config user.name github-actions
