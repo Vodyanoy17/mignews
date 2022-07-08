@@ -1,20 +1,21 @@
-change again
-change class name
-change class name
-more fixes for versining conf
-add congif file
-new line fix
-edsqwe
-test
-flow update
-change name
-Update semantic-release.yml
-Create semantic-release.yml
-Update pylint.yml
-Merge pull request #2 from Vodyanoy17/fix2
-ddd
-Merge pull request #1 from Vodyanoy17/first-fix-pylint
-fix pylint localy
-initial commit
-Create pylint.yml
-Initial commit
+- changelog
+- change again
+- change class name
+- change class name
+- more fixes for versining conf
+- add congif file
+- new line fix
+- edsqwe
+- test
+- flow update
+- change name
+- Update semantic-release.yml
+- Create semantic-release.yml
+- Update pylint.yml
+- Merge pull request #2 from Vodyanoy17/fix2
+- ddd
+- Merge pull request #1 from Vodyanoy17/first-fix-pylint
+- fix pylint localy
+- initial commit
+- Create pylint.yml
+- Initial commit
