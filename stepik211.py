@@ -4,6 +4,11 @@
 
 class Point:
     """_summary_"""
+    
+    @staticmethod
+    def print_lala(point):
+        """_summary_"""
+        print(point.get_coord())
 
     def __init__(self, x_coord, y_coord):
         """AI  the coordinates of the point.
