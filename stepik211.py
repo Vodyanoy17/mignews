@@ -2,7 +2,7 @@
 """
 
 
-class Point:
+class Point123:
     """_summary_"""
     
     @staticmethod
@@ -12,9 +12,8 @@ class Point:
 
     def __init__(self, x_coord, y_coord):
         """AI  the coordinates of the point.
-
         Args:
-            x_coord ([type]): [description]
+            x_coord : [description]
             y_coord ([type]): [description]
         """
         self.__x_coord = x_coord
