@@ -1,7 +1,5 @@
 """Point that the given point is considered
 """
-
-
 class Point:
     """_summary_"""
     def prosto(self):
