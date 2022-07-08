@@ -7,9 +7,6 @@ class Point:
     def prosto(self):
         """_summary_"""
         print("Point with respect to " + self)
-        
-        
-        
     @staticmethod
     def print_lala(point):
         """_summary_"""
