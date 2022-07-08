@@ -2,7 +2,7 @@
 """
 
 
-class Point_Dir:
+class PointDir:
     """_summary_"""
 
     def __init__(self, x_coord, y_coord):
