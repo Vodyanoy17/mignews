@@ -1,0 +1,11 @@
+- name: Semantic Releaser
+  # You may pin to the exact commit or the version.
+  # uses: brpaz/action-semantic-release@978dcc77b36b45f08f55e8deaee1666585bba193
+  uses: brpaz/action-semantic-release@v1
+  with:
+    # Specifies a list of extra plugins to install
+    install_plugins: # optional
+    # Run semantic release in dry-run mode
+    dry_run: # optional, default is false
+    # The branch to release from
+    branch: # optional, default is master
