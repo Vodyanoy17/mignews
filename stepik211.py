@@ -2,7 +2,7 @@
 """
 
 
-class Point123:
+class Point:
     """_summary_"""
     
     @staticmethod
