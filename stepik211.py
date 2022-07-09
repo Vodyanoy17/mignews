@@ -1,20 +1,14 @@
 """Point that the given point is considered
 """
-
-
 class Point:
-    """_summary_"""
-    
-    @staticmethod
-    def print_lala(point):
-        """_summary_"""
-        print(point.get_coord())
-
+    """hhggjk ,kuyhuhy.lk ,kuyhuhy  hhggjk"""
+    def prosto(self):
+        """_summary_    method"""
+        print("Point with respect to " + self)
     def __init__(self, x_coord, y_coord):
         """AI  the coordinates of the point.
-
         Args:
-            x_coord ([type]): [description]
+            x_coord : [description]
             y_coord ([type]): [description]
         """
         self.__x_coord = x_coord

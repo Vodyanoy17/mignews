@@ -14,18 +14,13 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Semantic Release
-        uses: relekang/python-semantic-release@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_username: __token__
-          repository_password: ${{ secrets.PYPI_TOKEN }}
+      - name: Semantic Release install
         run: |
           pip install python-semantic-release
           git config user.name github-actions
           git config user.email github-actions@github.com
+      - name: Semantic Release Publish
+        run:  |
           semantic-release publish
 
       
