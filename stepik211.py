@@ -7,7 +7,7 @@ class Point:
         print("Point with respect to " + self)
     @staticmethod
     def print_lala(point):
-        """_summary_"""
+        """print lala of point"""
         print(point.get_coord())
 
     def __init__(self, x_coord, y_coord):
