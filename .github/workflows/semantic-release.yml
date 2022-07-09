@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        python-version: ["3.8"]
+        python-version: ["3.10"]
     steps:
       - uses: actions/setup-python@v2
         with:
@@ -21,6 +21,6 @@ jobs:
           git config user.email github-actions@github.com
       - name: Semantic Release Publish
         run:  |
-          semantic-release publish
+          semantic-release publish -v DEBUG
 
       
