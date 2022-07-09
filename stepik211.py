@@ -1,7 +1,7 @@
 """Point that the given point is considered
 """
 class Point:
-    """_summary_"""
+    """hhggjk ,kuyhuhy.lk ,kuyhuhy  hhggjk"""
     def prosto(self):
         """_summary_    method"""
         print("Point with respect to " + self)
