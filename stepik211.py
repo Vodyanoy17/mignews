@@ -5,11 +5,6 @@ class Point:
     def prosto(self):
         """_summary_    method"""
         print("Point with respect to " + self)
-    @staticmethod
-    def print_lala(point):
-        """print lala of point"""
-        print(point.get_coord())
-
     def __init__(self, x_coord, y_coord):
         """AI  the coordinates of the point.
         Args:
