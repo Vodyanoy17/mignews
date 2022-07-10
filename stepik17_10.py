@@ -59,5 +59,5 @@ app_youtube = Application("Youtube")
 store.add_application(app_youtube)
 store.block_application(app_youtube)
 store.remove_application(app_youtube)
-print(store.total_apps())
+#print(store.total_apps())
 
