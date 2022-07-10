@@ -59,8 +59,5 @@ app_youtube = Application("Youtube")
 store.add_application(app_youtube)
 store.block_application(app_youtube)
 store.remove_application(app_youtube)
-<<<<<<< HEAD
 print(store.total_apps())
-=======
-# print(store.total_apps())
->>>>>>> 253df7e (feat(fix11):  test11 (#17))
+
