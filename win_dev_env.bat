@@ -9,7 +9,8 @@ set HTTP_PROXY=http://proxy02.iil.intel.com:911/
 set HTTPS_PROXY=http://proxy02.iil.intel.com:911/
 
 
+REM pip install pip-tools
 REM pip-compile
 REM pip install -r requirements_dev.txt
-python -m ipykernel install --user --name=venv
+REM python -m ipykernel install --user --name=venv
 
