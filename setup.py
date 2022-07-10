@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 # try:
 #     from semantic_release import setup_hook
