@@ -1,6 +1,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.0 (2022-07-10)
+### Feature
+* **test:** Klala  ([`b077502`](https://github.com/Vodyanoy17/mignews/commit/b0775021f6193ff339c21416a7487a9a9489ac3d))
+
 ## v1.0.0 (2022-07-09)
 ### Feature
 * **new tag in setup.cng file :** Fir branch name ([`292f458`](https://github.com/Vodyanoy17/mignews/commit/292f458bd937dd5adf94b4bac985fe99b7a66644))
