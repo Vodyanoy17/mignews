@@ -17,7 +17,13 @@ class Application:
             block (bool, optional): [description]. Defaults to True.
         """
         self.blocked = block
+    def set_unlocked(self):
+        """AI is creating summary for set_blocked
 
+        Args:
+            block (bool, optional): [description]. Defaults to True.
+        """
+        self.blocked = False
 
 class AppStore:
     """Store"""

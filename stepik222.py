@@ -19,10 +19,7 @@ class CardCheck:
         """
         pattern = re.compile(r"^(\d{4}-){3}(\d{4})$")
 
-        if re.search(pattern, number):
-            return True
-        else:
-            return False
+        return re.search(pattern, number)
 
     @classmethod
     def check_name(cls, name):
