@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 __version__ = "0.0.0"
 
-try:
-    from semantic_release import setup_hook
+# try:
+#     from semantic_release import setup_hook
 
-    setup_hook(sys.argv)
-except ImportError:
-    pass
+#     setup_hook(sys.argv)
+# except ImportError:
+#     pass
 
 
 print(find_packages())

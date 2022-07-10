@@ -1,4 +1,4 @@
-"""AI is creating summary for 
+"""AI is creating summary for
 """
 
 
@@ -6,7 +6,7 @@ class Video:
     """Representation of a video"""
 
     def __init__(self):
-        pass
+        self.name = ""
 
     def create(self, name):
         """Create a video object"""
