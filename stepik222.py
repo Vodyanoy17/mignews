@@ -1,4 +1,4 @@
-"""AI is creating summary for 
+"""AI is creating summary for
 """
 import re
 from string import ascii_lowercase, digits
@@ -34,5 +34,3 @@ class CardCheck:
         """
         name_tmp = name.replace(" ", "")
         return all(c in cls.CHARS_FOR_NAME for c in name_tmp)
-    
-print("adasd")

@@ -1,4 +1,4 @@
-"""AI is creating summary for 
+"""AI is creating summary for
 """
 
 
