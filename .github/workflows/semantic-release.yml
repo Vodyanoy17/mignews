@@ -12,9 +12,12 @@ jobs:
     steps:
       - uses: actions/setup-python@v2
         with:
+
           python-version: ${{ matrix.python-version }}
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref : main
       - name: Semantic Release install
         run: |
           pip install python-semantic-release
