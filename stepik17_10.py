@@ -53,6 +53,7 @@ class AppStore:
         return len(self.__application_list)
 
 
+
 # store = AppStore()
 # app_youtube = Application("Youtube")
 # store.add_application(app_youtube)
