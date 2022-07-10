@@ -1,4 +1,4 @@
-"""AI is creating summary for 
+"""AI is creating summary for
 """
 import re
 from string import ascii_lowercase, digits
@@ -19,10 +19,7 @@ class CardCheck:
         """
         pattern = re.compile(r"^(\d{4}-){3}(\d{4})$")
 
-        if re.search(pattern, number):
-            return True
-        else:
-            return False
+        return re.search(pattern, number)
 
     @classmethod
     def check_name(cls, name):
@@ -34,5 +31,3 @@ class CardCheck:
         """
         name_tmp = name.replace(" ", "")
         return all(c in cls.CHARS_FOR_NAME for c in name_tmp)
-    
-print("adasd")

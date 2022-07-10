@@ -1,4 +1,4 @@
-"""AI is creating summary for 
+"""AI is creating summary for
 """
 
 
@@ -17,7 +17,13 @@ class Application:
             block (bool, optional): [description]. Defaults to True.
         """
         self.blocked = block
+    def set_unlocked(self):
+        """AI is creating summary for set_blocked
 
+        Args:
+            block (bool, optional): [description]. Defaults to True.
+        """
+        self.blocked = False
 
 class AppStore:
     """Store"""
@@ -60,4 +66,3 @@ store.add_application(app_youtube)
 store.block_application(app_youtube)
 store.remove_application(app_youtube)
 print(store.total_apps())
-
